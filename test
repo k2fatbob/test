@@ -1,2 +1,1 @@
-test
-main
+echo "test in main"
