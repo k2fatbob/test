@@ -1286,8 +1286,7 @@ metadata:
   namespace: rook-ceph # namespace:operator
 # imagePullSecrets:
 #   - name: my-registry-secret
-
 EOFSCRIBE
   dateCreated = "2024-10-31T17:35:03.000Z"
-  lastUpdated = "2024-10-31T17:35:03.000Z"
+  lastUpdated = "2025-05-12T18:24:55.000Z"
 }
