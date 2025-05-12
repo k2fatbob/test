@@ -1,0 +1,23 @@
+resource "option-type" "acf85493-aaeb-4714-bcf2-f4593e2577c6" {
+  code = "acf85493-aaeb-4714-bcf2-f4593e2577c6"
+  name = "acf85493-aaeb-4714-bcf2-f4593e2577c6"
+  uuid = "0259f904-2bd9-4013-8c84-85b7c1994b62"
+  config = {
+    addon = ""
+    addonPosition = ""
+    defaultValue = ""
+    multiSelect = false
+    sortable = false
+  }
+  dependsOnCode = "Search"
+  displayOrder = 1
+  fieldContext = "config.customOptions"
+  fieldLabel = "AppName"
+  fieldName = "AppName"
+  formField = true
+  optionList = { name = "AppName" }
+  optionSource = "list"
+  refCode = "acf85493-aaeb-4714-bcf2-f4593e2577c6"
+  type = "select"
+  visibleOnCode = "Search"
+}
