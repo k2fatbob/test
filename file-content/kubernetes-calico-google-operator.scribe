@@ -4845,8 +4845,7 @@ spec:
         hostPath:
           path: /var/lib/kubelet/plugins_registry/
           type: Directory
-
 EOFSCRIBE
   dateCreated = "2024-10-31T17:35:02.000Z"
-  lastUpdated = "2025-02-07T21:45:26.000Z"
+  lastUpdated = "2025-05-12T18:24:55.000Z"
 }

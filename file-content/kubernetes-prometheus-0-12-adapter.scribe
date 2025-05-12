@@ -320,8 +320,7 @@ spec:
       app.kubernetes.io/component: metrics-adapter
       app.kubernetes.io/name: prometheus-adapter
       app.kubernetes.io/part-of: kube-prometheus
-
 EOFSCRIBE
   dateCreated = "2024-08-01T18:17:51.000Z"
-  lastUpdated = "2024-09-12T13:53:39.000Z"
+  lastUpdated = "2025-05-12T18:24:55.000Z"
 }
