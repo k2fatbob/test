@@ -1,0 +1,10 @@
+resource "task-set" "JCWorkflowTask" {
+  name = "JCWorkflowTask"
+  uuid = "fb36d6bb-1e4a-4a9e-9505-1a4e06d81d5d"
+  dateCreated = "2024-09-27T14:19:58.000Z"
+  lastUpdated = "2024-09-27T14:19:58.000Z"
+  taskSetTasks = [
+    { uuid = "2664bed1-2ee8-486a-a12b-f9c65fba0b30" },
+    { uuid = "34a56780-5e11-49ce-9d25-806f5b9a31ff" }
+  ]
+}

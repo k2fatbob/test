@@ -1,0 +1,14 @@
+resource "task" "JCConfigTask" {
+  name = "JCConfigTask"
+  uuid = "7c5a398e-4792-4b77-ad71-7f3a6bfbbac1"
+  dateCreated = "2024-09-27T14:18:44.000Z"
+  executeTarget = "resource"
+  lastUpdated = "2024-10-07T18:26:32.000Z"
+  options = [
+    {
+      content = { uuid = "e57e5e95-86e3-4bd1-9967-bceb5079467a" }
+      optionType = { code = "script" }
+    }
+  ]
+  taskType = { code = "script" }
+}

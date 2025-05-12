@@ -1,0 +1,14 @@
+resource "task" "JCProvisionTask" {
+  name = "JCProvisionTask"
+  uuid = "d052e5c2-1f2c-4b66-87aa-71b2ad8afba8"
+  dateCreated = "2024-09-27T14:19:01.000Z"
+  executeTarget = "resource"
+  lastUpdated = "2024-10-07T18:26:37.000Z"
+  options = [
+    {
+      content = { uuid = "a5e8b3d0-725d-4cb4-8dc5-1111908a9e60" }
+      optionType = { code = "script" }
+    }
+  ]
+  taskType = { code = "script" }
+}
