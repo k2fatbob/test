@@ -1,0 +1,23 @@
+resource "option-type" "70b6d136-b41f-4e09-b245-05a65de17891" {
+  code = "70b6d136-b41f-4e09-b245-05a65de17891"
+  name = "70b6d136-b41f-4e09-b245-05a65de17891"
+  uuid = "171a747d-0781-4e10-8db8-69d5a9525843"
+  config = {
+    addon = ""
+    addonPosition = ""
+    defaultValue = ""
+    multiSelect = false
+    sortable = false
+  }
+  dependsOnCode = "AppName"
+  displayOrder = 2
+  fieldContext = "config.customOptions"
+  fieldLabel = "AppRefID"
+  fieldName = "AppRefID"
+  formField = true
+  optionList = { name = "AppRefID" }
+  optionSource = "list"
+  refCode = "70b6d136-b41f-4e09-b245-05a65de17891"
+  type = "select"
+  visibleOnCode = "AppName"
+}
