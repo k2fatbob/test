@@ -1,0 +1,15 @@
+resource "container-type" "492edb54-f419-4365-85c0-cf675d4ad7f9" {
+  code = "492edb54-f419-4365-85c0-cf675d4ad7f9"
+  name = "JCWinTemplateNT"
+  uuid = "541bab97-dbc5-4ded-8bb7-775298f2b2e6"
+  containerVersion = "2019"
+  entryPoint = ""
+  logTypeCode = "vm"
+  provisionType = { code = "vmware" }
+  repositoryImage = ""
+  serverType = "vm"
+  shortName = "JCWinTemplateNT"
+  showServerLogs = true
+  statTypeCode = "vm"
+  virtualImage = { code = "vmware.vsphere.image.1.vm-227714" }
+}

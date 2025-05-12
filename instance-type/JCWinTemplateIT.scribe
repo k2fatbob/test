@@ -1,0 +1,13 @@
+resource "instance-type" "JCWinTemplateIT" {
+  code = "JCWinTemplateIT"
+  name = "JCWinTemplateIT"
+  uuid = "28579992-61c9-4132-b077-cb75100b6153"
+  category = "os"
+  deploymentService = ""
+  environmentPrefix = "JCWINTEMPLATEIT"
+  optionTypes = [
+    { code = "JCYesNoRL" },
+    { code = "JCYesNoSL" },
+    { code = "JCYesNoCB" }
+  ]
+}
