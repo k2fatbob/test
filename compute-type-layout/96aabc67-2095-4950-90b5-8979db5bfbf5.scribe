@@ -16,7 +16,7 @@ resource "compute-type-layout" "96aabc67-2095-4950-90b5-8979db5bfbf5" {
   description = "provision a kubernetes 1.29 cluster on ubuntu 22.04"
   groupType = { code = "kubernetes-cluster" }
   hasAutoScale = true
-  lastUpdated = "2025-05-12T18:24:55.000Z"
+  lastUpdated = "2025-05-12T18:47:51.000Z"
   memoryRequirement = 1073741824
   networkRuntime = "calico"
   optionTypes = [
