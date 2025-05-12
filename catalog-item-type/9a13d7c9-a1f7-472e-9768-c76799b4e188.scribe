@@ -12,10 +12,10 @@ resource "catalog-item-type" "9a13d7c9-a1f7-472e-9768-c76799b4e188" {
       }
       createBackup = false
       jobAction = "new"
-      providerBackupType = -1
+      providerBackupType = -1.0
       veeamManagedServer = ""
     }
-    cloud = { name = "vCenter", id = 1 }
+    cloud = { name = "vCenter", id = 1.0 }
     config = {
       createUser = true
       hostId = null
@@ -28,13 +28,13 @@ resource "catalog-item-type" "9a13d7c9-a1f7-472e-9768-c76799b4e188" {
       smbiosAssetTag = null
       vmwareFolderId = "/"
     }
-    copies = 1
+    copies = 1.0
     defaultExpandAdvanced = false
     group = { name = "All", id = "1" }
     hideLock = true
     hostName = "JCYesNo1"
     instance = { userGroup = { id = "" } }
-    layout = { code = "vmware-ubuntu-20.04-single", id = 523 }
+    layout = { code = "vmware-ubuntu-20.04-single", id = 523.0 }
     networkInterfaces = [
       {
         network = {
@@ -47,7 +47,7 @@ resource "catalog-item-type" "9a13d7c9-a1f7-472e-9768-c76799b4e188" {
         showNetworkPoolLabel = false
       }
     ]
-    plan = { code = "vm-2048", id = 230 }
+    plan = { code = "vm-2048", id = 230.0 }
     showScale = false
     templateParameter = null
     type = "ubuntu"
@@ -57,34 +57,34 @@ resource "catalog-item-type" "9a13d7c9-a1f7-472e-9768-c76799b4e188" {
         name = "root"
         uuid = "7f7087f7-ef86-4e6e-841e-81c15f86472a"
         configurableIOPS = false
-        controllerId = 82
+        controllerId = 82.0
         controllerMountPoint = "82:0:4:0"
         datastoreId = "autoCluster"
-        displayOrder = 0
+        displayOrder = 0.0
         externalId = null
-        id = 29
+        id = 29.0
         internalId = null
         maxIOPS = null
-        maxStorage = 21474836480
+        maxStorage = 2.147483648E+10
         minStorage = 2147483648
         planResizable = true
         readonlyName = false
         resizeable = true
         rootVolume = true
-        size = 20
-        storageType = 1
-        typeId = 36
+        size = 20.0
+        storageType = 1.0
+        typeId = 36.0
         uniqueId = "vmware.morpheus.ubuntu.20.04.volume.0"
         unitNumber = "0"
-        vId = 958
-        virtualImageId = 958
+        vId = 958.0
+        virtualImageId = 958.0
         volumeCustomizable = true
       }
     ]
   }
   dateCreated = "2025-02-25T17:11:22.000Z"
   formType = "optionTypes"
-  lastUpdated = "2025-02-25T17:11:22.000Z"
+  lastUpdated = "2025-05-12T18:24:55.000Z"
   optionTypes = [
     { code = "JCYesNoSL" },
     { code = "JCYesNoCB" },
