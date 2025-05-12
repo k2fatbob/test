@@ -1,87 +1,10 @@
 resource "catalog-item-type" "736dfcfc-5be4-4ba7-af99-1f65b93bf863" {
   name = "JCTest1"
   uuid = "736dfcfc-5be4-4ba7-af99-1f65b93bf863"
-  config = {
-    name = "JCTest1"
-    backup = {
-      createBackup = false
-      jobAction = "new"
-      jobRetentionCount = 3
-      providerBackupType = -1
-      veeamManagedServer = ""
-    }
-    cloud = { name = "DemoAWS", id = 2 }
-    config = {
-      availabilityId = null
-      createUser = true
-      instanceProfile = null
-      isEC2 = "false"
-      isVpcSelectable = true
-      kmsKeyId = null
-      noAgent = false
-      poolProviderType = null
-      publicIpType = "subnet"
-      resourcePoolId = "pool-50"
-      securityId = null
-    }
-    copies = 1
-    defaultExpandAdvanced = false
-    group = { name = "All", id = "1" }
-    hideLock = true
-    hostName = "${customOptions.Hostname}-${sequence.toString().padLeft(4,0)}"
-    instance = { userGroup = { id = "" } }
-    layout = { code = "ubuntu-amazon-18.04", id = 106 }
-    networkInterfaces = [
-      {
-        ipMode = ""
-        network = {
-          hasPool = false
-          id = "network-14"
-          idName = "labs_lb_1a (subnet-21dd1a44)"
-        }
-        primaryInterface = true
-        showNetworkDhcpLabel = true
-        showNetworkPoolLabel = false
-      }
-    ]
-    plan = { code = "amazon-t2.small", id = 742 }
-    ports = [
-      {
-        code = "ubuntu.22"
-        name = "SSH"
-        externalPort = 22
-        id = 9
-        internalPort = 22
-        loadBalance = false
-        loadBalancePort = null
-        loadBalanceProtocol = null
-        shortName = "ssh"
-        sortOrder = 1
-        visible = true
-      }
-    ]
-    securityGroups = [ { id = "sg-428a6e2d" } ]
-    showScale = false
-    type = "ubuntu"
-    version = "18.04"
-    volumes = [
-      {
-        name = "root"
-        maxIOPS = null
-        maxStorage = 21474836480
-        readonlyName = false
-        rootVolume = true
-        size = 20
-        storageType = 67
-        vId = 121
-        volumeCustomizable = true
-      }
-    ]
-  }
   dateCreated = "2024-06-24T15:59:55.000Z"
   form = { code = "JCTest" }
   formConfig = "{\"optOut\":{\"a8b3b463-eec6-4569-b530-9813924435dd\":false,\"b017eca1-88f1-4c23-aa9e-b55b4f07827d\":false,\"cb05fb9e-4307-4c8d-98e9-9ca0daccdfef\":false,\"29165be3-7ba3-4e73-8da9-169881ed9774\":false,\"457734ca-ac29-40b7-a022-7e51fc3f78ec\":false,\"3d735444-134d-4f36-ae24-eba051eef34b\":false}}"
   formType = "form"
-  lastUpdated = "2025-05-12T17:58:25.000Z"
+  lastUpdated = "2025-05-12T18:29:07.000Z"
   refType = "InstanceType"
 }
