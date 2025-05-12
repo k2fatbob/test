@@ -5,6 +5,7 @@ resource "instance-type" "JCWinTemplateIT" {
   category = "os"
   deploymentService = ""
   environmentPrefix = "JCWINTEMPLATEIT"
+  layouts = [ { code = "4c5c2cc1-681f-436b-aad2-dbc3e612998c" } ]
   optionTypes = [
     { code = "JCYesNoRL" },
     { code = "JCYesNoSL" },
