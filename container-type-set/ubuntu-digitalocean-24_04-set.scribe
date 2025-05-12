@@ -1,0 +1,7 @@
+resource "container-type-set" "ubuntu-digitalocean-24.04-set" {
+  code = "ubuntu-digitalocean-24.04-set"
+  uuid = "8426d495-8ce9-4c27-8972-b4c134aaa50c"
+  category = "ubuntu"
+  dynamicCount = true
+  workloadType = { code = "ubuntu-digitalocean-24.04" }
+}
