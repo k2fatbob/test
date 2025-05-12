@@ -1,0 +1,25 @@
+resource "option-type" "3d735444-134d-4f36-ae24-eba051eef34b" {
+  code = "3d735444-134d-4f36-ae24-eba051eef34b"
+  name = "3d735444-134d-4f36-ae24-eba051eef34b"
+  uuid = "be0dfaba-91c0-403f-b425-71bd20edc88c"
+  config = {
+    addon = ""
+    addonPosition = ""
+    cloudField = "29165be3-7ba3-4e73-8da9-169881ed9774"
+    cloudFieldType = "field"
+    cloudId = ""
+    groupField = "cb05fb9e-4307-4c8d-98e9-9ca0daccdfef"
+    groupFieldType = "field"
+    groupId = ""
+    instanceTypeCode = ""
+    instanceTypeFieldCode = ""
+    instanceTypeFieldType = "field"
+  }
+  displayOrder = 2
+  fieldContext = "config.customOptions"
+  fieldLabel = "Layout"
+  fieldName = "Layout"
+  formField = true
+  refCode = "3d735444-134d-4f36-ae24-eba051eef34b"
+  type = "layout"
+}
