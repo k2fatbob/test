@@ -1,0 +1,17 @@
+resource "file-content" "kubernetes-ingress-class-1-9-4" {
+  code = "kubernetes-ingress-class-1-9-4"
+  uuid = "51dfa4c6-c264-4ec1-ab52-f0653bf66e84"
+  content = <<EOFSCRIBE
+apiVersion: networking.k8s.io/v1
+kind: IngressClass
+metadata:
+  name: nginx
+  # annotations:
+  #   ingressclass.kubernetes.io/is-default-class: "true"
+spec:
+  controller: nginx.org/ingress-controller
+
+EOFSCRIBE
+  dateCreated = "2024-04-17T13:51:19.000Z"
+  lastUpdated = "2024-04-17T13:51:19.000Z"
+}

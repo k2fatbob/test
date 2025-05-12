@@ -1,0 +1,17 @@
+resource "file-content" "kubernetes-calico-3-26-0-api-install" {
+  code = "kubernetes-calico-3-26-0-api-install"
+  uuid = "e1c38527-2b27-4b29-9269-ba03faf3d3df"
+  content = <<EOFSCRIBE
+# This section configures the Calico API server.
+# For more information, see: https://projectcalico.docs.tigera.io/v3.22/reference/installation/api#operator.tigera.io/v1.APIServer
+apiVersion: operator.tigera.io/v1
+kind: APIServer 
+metadata: 
+  name: default 
+spec:
+  registry: quay.io
+
+EOFSCRIBE
+  dateCreated = "2024-04-17T13:51:18.000Z"
+  lastUpdated = "2024-04-17T13:51:18.000Z"
+}

@@ -1,0 +1,8 @@
+resource "compute-type-set" "96aabc67-2095-4950-90b5-8979db5bfbf5-78413148-9571-4519-8713-89c6ac0828fa" {
+  code = "96aabc67-2095-4950-90b5-8979db5bfbf5-78413148-9571-4519-8713-89c6ac0828fa"
+  name = "JC MKS Kubernetes 1.29 Cluster on Ubuntu 22.04-master-78413148-9571-4519-8713-89c6ac0828fa-set"
+  computeServerType = { code = "vmwareKubeMaster" }
+  nameSuffix = "-master"
+  nodeType = "master"
+  workloadType = { code = "78413148-9571-4519-8713-89c6ac0828fa" }
+}
