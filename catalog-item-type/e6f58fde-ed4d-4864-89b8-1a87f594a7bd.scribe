@@ -68,7 +68,7 @@ resource "catalog-item-type" "e6f58fde-ed4d-4864-89b8-1a87f594a7bd" {
       {
         name = "root"
         maxIOPS = null
-        maxStorage = 2.147483648E+10
+        maxStorage = 10.0
         readonlyName = false
         rootVolume = true
         size = 20.0
@@ -81,6 +81,6 @@ resource "catalog-item-type" "e6f58fde-ed4d-4864-89b8-1a87f594a7bd" {
   dateCreated = "2024-08-08T20:15:53.000Z"
   form = { code = "JCCharterTest" }
   formType = "form"
-  lastUpdated = "2025-05-12T18:24:55.000Z"
+  lastUpdated = "2025-05-12T18:47:51.000Z"
   refType = "InstanceType"
 }
