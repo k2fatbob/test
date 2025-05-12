@@ -1,0 +1,21 @@
+resource "option-type" "e9d38503-d6c1-41fd-b7e6-7d8c845199a3" {
+  code = "e9d38503-d6c1-41fd-b7e6-7d8c845199a3"
+  name = "e9d38503-d6c1-41fd-b7e6-7d8c845199a3"
+  uuid = "9d1bce08-744a-413f-841d-8390f9643eb3"
+  config = {
+    addon = ""
+    addonPosition = ""
+    cloudField = "29165be3-7ba3-4e73-8da9-169881ed9774"
+    cloudFieldType = "field"
+    cloudId = ""
+    defaultValue = ""
+    resourcePoolField = "b017eca1-88f1-4c23-aa9e-b55b4f07827d"
+  }
+  displayOrder = 7
+  fieldContext = "config.customOptions"
+  fieldLabel = "SecurityGroup"
+  fieldName = "SecurityGroup"
+  formField = true
+  refCode = "e9d38503-d6c1-41fd-b7e6-7d8c845199a3"
+  type = "secGroup"
+}
