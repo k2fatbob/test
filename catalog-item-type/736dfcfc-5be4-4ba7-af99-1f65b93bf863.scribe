@@ -28,7 +28,7 @@ resource "catalog-item-type" "736dfcfc-5be4-4ba7-af99-1f65b93bf863" {
     defaultExpandAdvanced = false
     group = { name = "All", id = "1" }
     hideLock = true
-    hostName = "<%=customOptions.Hostname%>-$${sequence.toString().padLeft(4,'0')}"
+    hostName = "<%=customOptions.Hostname%>_$${sequence.toString().padLeft(4,'0')}"
     instance = { userGroup = { id = "" } }
     layout = { code = "ubuntu-amazon-18.04", id = 106 }
     networkInterfaces = [
@@ -82,6 +82,6 @@ resource "catalog-item-type" "736dfcfc-5be4-4ba7-af99-1f65b93bf863" {
   form = { code = "JCTest" }
   formConfig = "{\"optOut\":{\"a8b3b463-eec6-4569-b530-9813924435dd\":false,\"b017eca1-88f1-4c23-aa9e-b55b4f07827d\":false,\"cb05fb9e-4307-4c8d-98e9-9ca0daccdfef\":false,\"29165be3-7ba3-4e73-8da9-169881ed9774\":false,\"457734ca-ac29-40b7-a022-7e51fc3f78ec\":false,\"3d735444-134d-4f36-ae24-eba051eef34b\":false}}"
   formType = "form"
-  lastUpdated = "2025-05-12T17:13:04.000Z"
+  lastUpdated = "2025-05-12T17:52:20.000Z"
   refType = "InstanceType"
 }
