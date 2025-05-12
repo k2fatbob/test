@@ -1,6 +1,6 @@
 resource "container-type-set" "nginx-digitalocean-1.9-ubuntu-20.04-set" {
   code = "nginx-digitalocean-1.9-ubuntu-20.04-set"
-  uuid = "4a0991f4-20f0-4175-b9c5-0619390543d6"
+  uuid = "e1fcd5d0-6039-4721-bc6a-0b659830333c"
   category = "nginx"
   dynamicCount = true
   workloadType = { code = "nginx-digitalocean-1.9-ubuntu-20.04" }
