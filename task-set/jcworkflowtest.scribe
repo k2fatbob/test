@@ -1,0 +1,8 @@
+resource "task-set" "jcworkflowtest" {
+  name = "jcworkflowtest"
+  uuid = "409015f3-9707-4fa9-94b0-41577b2a5624"
+  dateCreated = "2024-08-09T13:19:53.000Z"
+  lastUpdated = "2024-08-09T13:19:53.000Z"
+  taskSetTasks = [ { uuid = "86b28652-4ff0-459a-b635-04e028549264" } ]
+  taskSetType = "operation"
+}

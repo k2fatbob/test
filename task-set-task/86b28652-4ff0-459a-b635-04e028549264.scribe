@@ -1,0 +1,5 @@
+resource "task-set-task" "86b28652-4ff0-459a-b635-04e028549264" {
+  uuid = "86b28652-4ff0-459a-b635-04e028549264"
+  task = { name = "jctasktest" }
+  taskPhase = "operation"
+}

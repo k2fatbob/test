@@ -1,0 +1,14 @@
+resource "task" "jctasktest" {
+  name = "jctasktest"
+  uuid = "a442a84e-2b8b-4882-99ff-201bb16540ec"
+  dateCreated = "2024-08-09T13:19:32.000Z"
+  executeTarget = "resource"
+  lastUpdated = "2024-08-09T13:19:32.000Z"
+  options = [
+    {
+      content = { uuid = "f22fec9d-aeae-4d80-ab95-b60b1273d058" }
+      optionType = { code = "script" }
+    }
+  ]
+  taskType = { code = "script" }
+}
