@@ -1,0 +1,26 @@
+resource "option-type" "b017eca1-88f1-4c23-aa9e-b55b4f07827d" {
+  code = "b017eca1-88f1-4c23-aa9e-b55b4f07827d"
+  name = "b017eca1-88f1-4c23-aa9e-b55b4f07827d"
+  uuid = "d12ce690-7f69-492b-98dc-02d2efcb1ccf"
+  config = {
+    cloudField = "29165be3-7ba3-4e73-8da9-169881ed9774"
+    cloudFieldType = "field"
+    cloudId = ""
+    groupField = "cb05fb9e-4307-4c8d-98e9-9ca0daccdfef"
+    groupFieldType = "field"
+    groupId = ""
+    layoutField = "3d735444-134d-4f36-ae24-eba051eef34b"
+    layoutFieldType = "field"
+    layoutId = ""
+    planField = "457734ca-ac29-40b7-a022-7e51fc3f78ec"
+    planFieldType = "field"
+    planId = ""
+  }
+  displayOrder = 5
+  fieldContext = "config.customOptions"
+  fieldLabel = "Pool"
+  fieldName = "Pool"
+  formField = true
+  refCode = "b017eca1-88f1-4c23-aa9e-b55b4f07827d"
+  type = "resourcePool"
+}
