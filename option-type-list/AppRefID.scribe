@@ -1,0 +1,10 @@
+resource "option-type-list" "AppRefID" {
+  name = "AppRefID"
+  uuid = "407fb8f0-256b-426c-867d-80e88b6c56e5"
+  initialDataset = <<EOFSCRIBE
+'TEST1','TEST1'
+'TEST2','TEST2'
+'TEST3','TEST3'
+EOFSCRIBE
+  type = "manual"
+}

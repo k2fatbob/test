@@ -1,0 +1,86 @@
+resource "catalog-item-type" "e6f58fde-ed4d-4864-89b8-1a87f594a7bd" {
+  name = "JCCharterCI"
+  uuid = "e6f58fde-ed4d-4864-89b8-1a87f594a7bd"
+  config = {
+    name = "JCCharterInstance"
+    backup = {
+      createBackup = false
+      jobAction = "new"
+      jobRetentionCount = 3
+      providerBackupType = -1
+      veeamManagedServer = ""
+    }
+    cloud = { name = "DemoAWS", id = 2 }
+    config = {
+      availabilityId = null
+      createUser = true
+      instanceProfile = null
+      isEC2 = "false"
+      isVpcSelectable = true
+      kmsKeyId = null
+      noAgent = false
+      poolProviderType = null
+      publicIpType = "subnet"
+      resourcePoolId = "pool-50"
+      securityId = null
+    }
+    copies = 1
+    defaultExpandAdvanced = false
+    group = { name = "All", id = "1" }
+    hideLock = true
+    hostName = "JCCharterInstance"
+    instance = { userGroup = { id = "" } }
+    layout = { code = "ubuntu-amazon-18.04", id = 106 }
+    networkInterfaces = [
+      {
+        ipMode = ""
+        network = {
+          hasPool = false
+          id = "network-14"
+          idName = "labs_lb_1a (subnet-21dd1a44)"
+        }
+        primaryInterface = true
+        showNetworkDhcpLabel = true
+        showNetworkPoolLabel = false
+      }
+    ]
+    plan = { code = "amazon-t2.micro", id = 522 }
+    ports = [
+      {
+        code = "ubuntu.22"
+        name = "SSH"
+        externalPort = 22
+        id = 9
+        internalPort = 22
+        loadBalance = false
+        loadBalancePort = null
+        loadBalanceProtocol = null
+        shortName = "ssh"
+        sortOrder = 1
+        visible = true
+      }
+    ]
+    securityGroups = [ { id = "sg-428a6e2d" } ]
+    showScale = false
+    type = "ubuntu"
+    version = "18.04"
+    volumes = [
+      {
+        name = "root"
+        maxIOPS = null
+        maxStorage = 21474836480
+        readonlyName = false
+        rootVolume = true
+        size = 20
+        storageType = 67
+        vId = 121
+        volumeCustomizable = true
+      }
+    ]
+  }
+  dateCreated = "2024-08-08T20:15:53.000Z"
+  form = { code = "JCCharterTest" }
+  formType = "form"
+  lastUpdated = "2024-08-08T20:15:53.000Z"
+  refType = "InstanceType"
+}
