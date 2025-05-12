@@ -21,8 +21,7 @@ spec:
       encapsulation: VXLANCrossSubnet
       natOutgoing: Enabled
       nodeSelector: all()
-
 EOFSCRIBE
   dateCreated = "2024-04-17T13:51:18.000Z"
-  lastUpdated = "2024-04-17T13:51:18.000Z"
+  lastUpdated = "2025-05-12T18:24:55.000Z"
 }

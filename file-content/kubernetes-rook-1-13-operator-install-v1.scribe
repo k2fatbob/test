@@ -668,8 +668,7 @@ spec:
         - name: default-config-dir
           emptyDir: {}
 # OLM: END OPERATOR DEPLOYMENT
-
 EOFSCRIBE
   dateCreated = "2024-04-17T13:51:20.000Z"
-  lastUpdated = "2024-04-17T13:51:20.000Z"
+  lastUpdated = "2025-05-12T18:24:55.000Z"
 }
