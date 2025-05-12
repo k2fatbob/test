@@ -1,0 +1,9 @@
+resource "option-type" "JCYesNoCB" {
+  code = "JCYesNoCB"
+  name = "JCYesNoCB"
+  uuid = "f96d55eb-580e-4ab0-a3f3-aa00f263c56d"
+  fieldContext = "config.customOptions"
+  fieldLabel = "JCYesNoCB"
+  fieldName = "JCYesNoCB"
+  type = "checkbox"
+}

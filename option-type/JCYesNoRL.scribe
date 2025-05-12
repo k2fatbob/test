@@ -1,0 +1,11 @@
+resource "option-type" "JCYesNoRL" {
+  code = "JCYesNoRL"
+  name = "JCYesNoRL"
+  uuid = "0449afaf-a264-4e55-9485-7b435fb866ab"
+  fieldContext = "config.customOptions"
+  fieldLabel = "JCYesNoRL"
+  fieldName = "JCYesNoRL"
+  optionList = { name = "JCYesNoOL" }
+  optionSource = "list"
+  type = "radio"
+}

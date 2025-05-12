@@ -1,0 +1,94 @@
+resource "catalog-item-type" "9a13d7c9-a1f7-472e-9768-c76799b4e188" {
+  name = "JCYesNoCI"
+  uuid = "9a13d7c9-a1f7-472e-9768-c76799b4e188"
+  config = {
+    name = "JCYesNo1"
+    backup = {
+      backupJob = {
+        retentionCount = null
+        scheduleTypeId = null
+        syntheticFullEnabled = false
+        syntheticFullSchedule = null
+      }
+      createBackup = false
+      jobAction = "new"
+      providerBackupType = -1
+      veeamManagedServer = ""
+    }
+    cloud = { name = "vCenter", id = 1 }
+    config = {
+      createUser = true
+      hostId = null
+      isEC2 = false
+      isVpcSelectable = true
+      nestedVirtualization = null
+      noAgent = false
+      poolProviderType = null
+      resourcePoolId = "pool-1"
+      smbiosAssetTag = null
+      vmwareFolderId = "/"
+    }
+    copies = 1
+    defaultExpandAdvanced = false
+    group = { name = "All", id = "1" }
+    hideLock = true
+    hostName = "JCYesNo1"
+    instance = { userGroup = { id = "" } }
+    layout = { code = "vmware-ubuntu-20.04-single", id = 523 }
+    networkInterfaces = [
+      {
+        network = {
+          hasPool = false
+          id = "network-83"
+          idName = "VLAN0002 - Internal Server 2"
+        }
+        primaryInterface = true
+        showNetworkDhcpLabel = true
+        showNetworkPoolLabel = false
+      }
+    ]
+    plan = { code = "vm-2048", id = 230 }
+    showScale = false
+    templateParameter = null
+    type = "ubuntu"
+    version = "20.04"
+    volumes = [
+      {
+        name = "root"
+        uuid = "7f7087f7-ef86-4e6e-841e-81c15f86472a"
+        configurableIOPS = false
+        controllerId = 82
+        controllerMountPoint = "82:0:4:0"
+        datastoreId = "autoCluster"
+        displayOrder = 0
+        externalId = null
+        id = 29
+        internalId = null
+        maxIOPS = null
+        maxStorage = 21474836480
+        minStorage = 2147483648
+        planResizable = true
+        readonlyName = false
+        resizeable = true
+        rootVolume = true
+        size = 20
+        storageType = 1
+        typeId = 36
+        uniqueId = "vmware.morpheus.ubuntu.20.04.volume.0"
+        unitNumber = "0"
+        vId = 958
+        virtualImageId = 958
+        volumeCustomizable = true
+      }
+    ]
+  }
+  dateCreated = "2025-02-25T17:11:22.000Z"
+  formType = "optionTypes"
+  lastUpdated = "2025-02-25T17:11:22.000Z"
+  optionTypes = [
+    { code = "JCYesNoSL" },
+    { code = "JCYesNoCB" },
+    { code = "JCYesNoRL" }
+  ]
+  refType = "InstanceType"
+}
