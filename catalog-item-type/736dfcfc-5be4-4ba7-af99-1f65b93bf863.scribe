@@ -28,7 +28,7 @@ resource "catalog-item-type" "736dfcfc-5be4-4ba7-af99-1f65b93bf863" {
     defaultExpandAdvanced = false
     group = { name = "All", id = "1" }
     hideLock = true
-    hostName = "$${customOptions.Hostname}-${sequence.toString().padLeft(4,'0')}"
+    hostName = "$${customOptions.Hostname}_${sequence.toString().padLeft(4,'0')}"
     instance = { userGroup = { id = "" } }
     layout = { code = "ubuntu-amazon-18.04", id = 106 }
     networkInterfaces = [
