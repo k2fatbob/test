@@ -1,7 +1,7 @@
 resource "container-type" "nginx-digitalocean-1.9-ubuntu-20.04" {
   code = "nginx-digitalocean-1.9-ubuntu-20.04"
   name = "NGINX 1.9"
-  uuid = "b9939304-11eb-4c09-992a-ef9943b1b469"
+  uuid = "db780ebe-0065-4573-85ad-f87ee41f11e6"
   category = "nginx"
   actions = [ { code = "nginx-1.9-remove-node" } ]
   backupType = "digitaloceanSnapshot"
