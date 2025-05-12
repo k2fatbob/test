@@ -65,7 +65,7 @@ resource "catalog-item-type" "9a13d7c9-a1f7-472e-9768-c76799b4e188" {
         id = 29.0
         internalId = null
         maxIOPS = null
-        maxStorage = 2.147483648E+10
+        maxStorage = 10.0
         minStorage = 2147483648
         planResizable = true
         readonlyName = false
@@ -84,7 +84,7 @@ resource "catalog-item-type" "9a13d7c9-a1f7-472e-9768-c76799b4e188" {
   }
   dateCreated = "2025-02-25T17:11:22.000Z"
   formType = "optionTypes"
-  lastUpdated = "2025-05-12T18:24:55.000Z"
+  lastUpdated = "2025-05-12T18:47:51.000Z"
   optionTypes = [
     { code = "JCYesNoSL" },
     { code = "JCYesNoCB" },
