@@ -1,0 +1,11 @@
+resource "option-type" "b89ec035-9b68-494b-8002-a04ee84a98b3" {
+  code = "b89ec035-9b68-494b-8002-a04ee84a98b3"
+  name = "b89ec035-9b68-494b-8002-a04ee84a98b3"
+  uuid = "049e4078-4469-4b4c-b2b9-671aee5b7ca0"
+  config = { addon = "", addonPosition = "" }
+  fieldContext = "config.customOptions"
+  fieldLabel = "Search"
+  fieldName = "Search"
+  formField = true
+  refCode = "b89ec035-9b68-494b-8002-a04ee84a98b3"
+}
