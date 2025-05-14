@@ -1,8 +1,0 @@
-resource "option-type" "JCIP3" {
-  code = "JCIP3"
-  name = "JCIP3"
-  uuid = "b21ca95f-1ccd-4fb3-a7b1-0cf98cf6a027"
-  fieldContext = "config.customOptions"
-  fieldLabel = "JCIP3"
-  fieldName = "JCIP3"
-}
