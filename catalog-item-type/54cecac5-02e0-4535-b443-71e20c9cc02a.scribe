@@ -101,6 +101,6 @@ resource "catalog-item-type" "54cecac5-02e0-4535-b443-71e20c9cc02a" {
   form = { code = "JCtTest" }
   formType = "form"
   labels = [ "github" ]
-  lastUpdated = "2025-05-14T17:54:52.000Z"
+  lastUpdated = "2025-05-14T18:14:28.000Z"
   refType = "InstanceType"
 }
