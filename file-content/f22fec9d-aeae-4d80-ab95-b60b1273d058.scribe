@@ -1,6 +1,0 @@
-resource "file-content" "f22fec9d-aeae-4d80-ab95-b60b1273d058" {
-  uuid = "f22fec9d-aeae-4d80-ab95-b60b1273d058"
-  content = "echo \"test\""
-  dateCreated = "2024-08-09T13:19:32.000Z"
-  lastUpdated = "2024-08-09T13:19:32.000Z"
-}
