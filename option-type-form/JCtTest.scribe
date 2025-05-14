@@ -21,6 +21,7 @@ resource "option-type-form" "JCtTest" {
         allowReadonly = false
         retainDefault = false
       }
+      defaultValue = "1"
       fieldContext = "config.customOptions"
       fieldLabel = "Group"
       fieldName = "Group"
@@ -162,13 +163,15 @@ resource "option-type-form" "JCtTest" {
       name = "d5e5c525-9e89-4a38-873d-e93a3aac48fa"
       uuid = "38d2419a-1383-4342-a27a-edd31065bf0d"
       config = {
+        addon = ""
+        addonPosition = ""
         cloudField = "f59448d0-ea0c-41cf-a86f-c3a1597328db"
         cloudFieldType = "field"
         cloudId = ""
         defaultValue = ""
-        enableDatastoreSelection = false
-        enableDiskTypeSelection = false
-        enableStorageTypeSelection = false
+        enableDatastoreSelection = true
+        enableDiskTypeSelection = true
+        enableStorageTypeSelection = true
         groupField = "71bc1c64-25a7-4579-b1df-492b2b52d228"
         groupFieldType = "field"
         groupId = ""
@@ -183,6 +186,7 @@ resource "option-type-form" "JCtTest" {
         poolField = "b00b2f7b-ea2a-4d5a-a4e0-00b116315917"
         poolFieldType = "field"
         poolId = ""
+        retainDefault = false
         virtualImageFieldType = "field"
       }
       displayOrder = 6

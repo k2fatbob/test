@@ -32,7 +32,7 @@ resource "catalog-item-type" "54cecac5-02e0-4535-b443-71e20c9cc02a" {
     defaultExpandAdvanced = false
     group = { name = "All", id = "1" }
     hideLock = true
-    hostName = "<%=customOptions.Hostname%>-$${sequence.toString().padLeft(4,'0')}"
+    hostName = "<%=customOptions.Hostname%>-<%=sequence.toString().padLeft(4,'0')%>"
     instance = { userGroup = { id = "" } }
     layout = { code = "vmware-ubuntu-18.04-single", id = 97 }
     networkInterfaces = [
@@ -101,6 +101,6 @@ resource "catalog-item-type" "54cecac5-02e0-4535-b443-71e20c9cc02a" {
   form = { code = "JCtTest" }
   formType = "form"
   labels = [ "github" ]
-  lastUpdated = "2025-05-14T13:24:12.000Z"
+  lastUpdated = "2025-05-14T17:36:12.000Z"
   refType = "InstanceType"
 }
