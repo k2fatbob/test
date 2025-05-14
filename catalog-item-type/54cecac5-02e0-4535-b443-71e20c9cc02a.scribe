@@ -32,7 +32,7 @@ resource "catalog-item-type" "54cecac5-02e0-4535-b443-71e20c9cc02a" {
     defaultExpandAdvanced = false
     group = { name = "All", id = "1" }
     hideLock = true
-    hostName = "<%=customOptions.Hostname+sequence%>"
+    hostName = "<%=customOptions.Hostname%>"
     instance = { userGroup = { id = "" } }
     layout = { code = "vmware-ubuntu-18.04-single", id = 97 }
     networkInterfaces = [
