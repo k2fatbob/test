@@ -1,9 +1,0 @@
-resource "option-type-list" "JCYesNoOL" {
-  name = "JCYesNoOL"
-  uuid = "b2e1df4e-d589-44b1-90de-8086fa377ac7"
-  initialDataset = <<EOFSCRIBE
-'On','yes'
-'Off','no'
-EOFSCRIBE
-  type = "manual"
-}
