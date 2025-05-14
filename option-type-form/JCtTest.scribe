@@ -34,6 +34,8 @@ resource "option-type-form" "JCtTest" {
       name = "f59448d0-ea0c-41cf-a86f-c3a1597328db"
       uuid = "8b1081ee-eb59-4f2d-8134-5a4731eeccb6"
       config = {
+        addon = ""
+        addonPosition = ""
         cloudType = ""
         filterResource = false
         group = "71bc1c64-25a7-4579-b1df-492b2b52d228"
@@ -42,6 +44,7 @@ resource "option-type-form" "JCtTest" {
         instanceTypeCode = ""
         instanceTypeFieldCode = ""
         instanceTypeFieldType = "field"
+        retainDefault = false
       }
       displayOrder = 1
       fieldContext = "config.customOptions"
