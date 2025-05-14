@@ -1,0 +1,106 @@
+resource "catalog-item-type" "54cecac5-02e0-4535-b443-71e20c9cc02a" {
+  name = "JCTest1"
+  uuid = "54cecac5-02e0-4535-b443-71e20c9cc02a"
+  config = {
+    name = "JCTest1"
+    backup = {
+      backupJob = {
+        retentionCount = null
+        scheduleTypeId = null
+        syntheticFullEnabled = false
+        syntheticFullSchedule = null
+      }
+      createBackup = false
+      jobAction = "new"
+      providerBackupType = -1
+      veeamManagedServer = ""
+    }
+    cloud = { name = "vCenter", id = 3 }
+    config = {
+      createUser = true
+      hostId = null
+      isEC2 = false
+      isVpcSelectable = true
+      nestedVirtualization = null
+      noAgent = false
+      poolProviderType = null
+      resourcePoolId = "pool-24"
+      smbiosAssetTag = null
+      vmwareFolderId = "/"
+    }
+    copies = 1
+    defaultExpandAdvanced = false
+    group = { name = "All", id = "1" }
+    hideLock = true
+    hostName = "<%=customOptions.Hostname%>-<%=sequence+1000%>"
+    instance = { userGroup = { id = "" } }
+    layout = { code = "vmware-ubuntu-18.04-single", id = 97 }
+    networkInterfaces = [
+      {
+        ipMode = ""
+        network = {
+          hasPool = false
+          id = "network-15"
+          idName = "VLAN0002 - Internal Server 2"
+        }
+        primaryInterface = true
+        showNetworkDhcpLabel = true
+        showNetworkPoolLabel = false
+      }
+    ]
+    plan = { code = "vm-2048", id = 209 }
+    ports = [
+      {
+        code = "ubuntu.22"
+        name = "SSH"
+        externalPort = 22
+        id = 3
+        internalPort = 22
+        loadBalance = false
+        loadBalancePort = null
+        loadBalanceProtocol = null
+        shortName = "ssh"
+        sortOrder = 1
+        visible = true
+      }
+    ]
+    showScale = false
+    type = "ubuntu"
+    version = "18.04"
+    volumes = [
+      {
+        name = "root"
+        uuid = "8e253286-3b17-4041-ad0a-d3082091ccb7"
+        configurableIOPS = false
+        controllerId = 19
+        controllerMountPoint = "19:0:4:0"
+        datastoreId = "autoCluster"
+        displayOrder = 0
+        externalId = null
+        id = 7
+        internalId = null
+        maxIOPS = null
+        maxStorage = 21474836480
+        minStorage = 2147483648
+        planResizable = true
+        readonlyName = false
+        resizeable = true
+        rootVolume = true
+        size = 20
+        storageType = 1
+        typeId = 36
+        uniqueId = "vmware.morpheus.ubuntu.18.04.volume.0"
+        unitNumber = "0"
+        vId = 365
+        virtualImageId = 365
+        volumeCustomizable = true
+      }
+    ]
+  }
+  dateCreated = "2025-05-14T13:24:04.000Z"
+  form = { code = "JCtTest" }
+  formType = "form"
+  labels = [ "github" ]
+  lastUpdated = "2025-05-14T17:54:52.000Z"
+  refType = "InstanceType"
+}
