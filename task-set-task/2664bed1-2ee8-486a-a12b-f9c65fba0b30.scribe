@@ -1,6 +1,0 @@
-resource "task-set-task" "2664bed1-2ee8-486a-a12b-f9c65fba0b30" {
-  uuid = "2664bed1-2ee8-486a-a12b-f9c65fba0b30"
-  task = { name = "JCProvisionTask" }
-  taskOrder = 1
-  taskPhase = "provision"
-}

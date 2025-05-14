@@ -1,5 +1,0 @@
-resource "task-set-task" "34a56780-5e11-49ce-9d25-806f5b9a31ff" {
-  uuid = "34a56780-5e11-49ce-9d25-806f5b9a31ff"
-  task = { name = "JCConfigTask" }
-  taskPhase = "configure"
-}
